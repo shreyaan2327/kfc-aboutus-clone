@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+}
+.logo {
+    background: url(https://online.kfc.co.in/images/logokfc.png) no-repeat;
+    width: 69px;
+    height: 69px;
+    display: inline-block;
+    background-size: 68px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.button{
+    background-color: red;
+    color: white;
+    border: none;
+    margin: none;
+}
+.button{
+    float: right;
+    padding: 15px;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 40px;
+}
+.nav_bar, .navbar{
+    background-color: black;
+    color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    text-decoration: none;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+h2{
+    text-align: left;
+    margin-left: 75px;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background-color: transparent;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.slider_img{
+    margin: none;
+}
+
+.socialimg, .buttomline{
+    margin: 20px;
+    text-align-last: center;
+}
+
+.footerlinks{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 50px;
+    box-shadow: 5px 10px 10px 10px dimgrey;
+    padding: 20px;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    text-align: right;
+    padding-bottom: 0px;
+    padding-right: 2px;
+    padding-top: 10px;
+    padding-left: 13px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.fa-instagram {
+    display: inline-block;
+    width: 34px;
+    height: 32px;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 30px;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.fa-youtube-play{
+    text-decoration: none;
+    color: red;
+    
+}
+.fa{
+    display: flexbox;
+}
+
+.footerbox{
+    padding: 70px;
+    padding-top: 25px;
+}
